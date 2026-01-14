@@ -1,0 +1,16 @@
+{
+  "name": "ts-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx tsc --noEmit && npx tsx src/index.ts",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Marco Lilli",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

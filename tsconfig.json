@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext"],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    /* Strictness - The "No Any" Section */
+    "strict": true,                         // Enable all strict type-checking options
+    "noImplicitAny": true,                  // Error on expressions/declarations with an implied 'any' type
+    "strictNullChecks": true,               // Error when a value is 'null' or 'undefined' when it shouldn't be
+
+    /* Linter-like Checks */
+    "noUnusedLocals": true,                 // Error on unused variables
+    "noUnusedParameters": true,             // Error on unused function parameters
+    "noImplicitReturns": true,              // Ensure all code paths in a function return a value
+    "noFallthroughCasesInSwitch": true      // Prevent bugs in switch statements
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
