@@ -4,7 +4,7 @@
     "target": "ESNext",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "dom"],
     "skipLibCheck": true,
     "sourceMap": true,
     "outDir": "./dist",
